@@ -12,7 +12,15 @@ module.exports = {
 
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				clrWhite: '#e9e9e9',
+				clrBlack: '#000815',
+				clrBlue: '#154EFF',
+				clrYellow: '#FFC742',
+				clrGrey: '#0F1A2E',
+			},
+		},
 	},
 	variants: {
 		extend: {},
