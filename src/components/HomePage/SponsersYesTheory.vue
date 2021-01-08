@@ -6,31 +6,31 @@
 			<span
 				><img
 					class="h-5 md:h-7 lg:h-full"
-					src="../../assets/images/google-logo.svg"
+					src="../../assets/images/home/google-logo.svg"
 					alt="Google"
 			/></span>
 			<span
 				><img
 					class="h-5 mt-2 lg:mt-5 md:h-7 lg:h-full"
-					src="../../assets/images/amazon-logo.svg"
+					src="../../assets/images/home/amazon-logo.svg"
 					alt="Amazon"
 			/></span>
 			<span
 				><img
 					class="h-5 md:h-7 lg:h-full"
-					src="../../assets/images/audible-logo.svg"
+					src="../../assets/images/home/audible-logo.svg"
 					alt="Audible"
 			/></span>
 			<span
 				><img
 					class="h-5 md:h-7 lg:h-full"
-					src="../../assets/images/walmart-logo.svg"
+					src="../../assets/images/home/walmart-logo.svg"
 					alt="Walmart"
 			/></span>
 			<span
 				><img
 					class="h-5 md:h-7 lg:h-full"
-					src="../../assets/images/un-logo.svg"
+					src="../../assets/images/home/un-logo.svg"
 					alt="United Nations"
 			/></span>
 		</div>

@@ -23,13 +23,13 @@
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/arrow-right.svg"
+							src="../../assets/images/home/arrow-right.svg"
 							alt="Arrow Right"
 					/></span>
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/youtube-logo-black.svg"
+							src="../../assets/images/home/youtube-logo-black.svg"
 							alt="Youtube"
 					/></span>
 				</div>

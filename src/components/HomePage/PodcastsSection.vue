@@ -8,7 +8,7 @@
 			>
 			<img
 				class="h-48 md:h-52 lg:h-64 mt-6"
-				src="../../assets/images/podcasts-homepage-logo.svg"
+				src="../../assets/images/home/podcasts-homepage-logo.svg"
 				alt="Podcasts Image"
 			/>
 			<p
@@ -24,25 +24,25 @@
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/google-podcasts-logo.svg"
+							src="../../assets/images/home/google-podcasts-logo.svg"
 							alt="Google Podcasts"
 					/></span>
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/Spotify_black.svg"
+							src="../../assets/images/home/Spotify_black.svg"
 							alt="Spotify"
 					/></span>
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/Apple_black.svg"
+							src="../../assets/images/home/Apple_black.svg"
 							alt="Apple Logo"
 					/></span>
 					<span class="md:mx-3 mx-2 lg:mx-4"
 						><img
 							class="h-4 md:h-7 lg:h-full"
-							src="../../assets/images/stitch-logo.svg"
+							src="../../assets/images/home/stitch-logo.svg"
 							alt="Stitch Logo"
 					/></span>
 				</div>

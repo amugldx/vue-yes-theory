@@ -4,21 +4,21 @@
 			<img
 				@click="logoHandler"
 				class="h-12 md:h-14 lg:h-full cursor-pointer"
-				src="../../assets/images/yes-theory-logo.png"
+				src="../../assets/images/home/yes-theory-logo.png"
 				alt="Logo"
 			/>
 			<div @click="toggleNav">
 				<div v-if="navState">
 					<img
 						class="h-5 w-5 md:h-6 md:w-6 lg:w-full lg:h-full cursor-pointer"
-						src="../../assets/images/cross-icon.svg"
+						src="../../assets/images/home/cross-icon.svg"
 						alt="Nav Closing Icon"
 					/>
 				</div>
 				<div v-else>
 					<img
 						class="h-5 w-5 md:h-6 md:w-6 lg:w-full lg:h-full cursor-pointer"
-						src="../../assets/images/nav-icon.svg"
+						src="../../assets/images/home/nav-icon.svg"
 						alt="Nav Icon"
 					/>
 				</div>

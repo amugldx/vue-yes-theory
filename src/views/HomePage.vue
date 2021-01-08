@@ -67,7 +67,7 @@
 		name: 'HomePage',
 		setup() {
 			const cssProps = {
-				backgroundImage: `url(${require('@/assets/images/m-home-page-header-bg.svg')})`,
+				backgroundImage: `url(${require('@/assets/images/home/m-home-page-header-bg.svg')})`,
 			};
 
 			return {

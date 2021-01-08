@@ -6,7 +6,7 @@
 			<div class="self-center">
 				<img
 					class="h-56 md:h-64 lg:h-full lg:mx-6 md:mx-2 mt-2 mx-8"
-					src="../../assets/images/about-img.svg"
+					src="../../assets/images/home/about-img.svg"
 					alt="About Section Image"
 				/>
 			</div>
