@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue';
 import AboutPage from '../views/AboutPage.vue';
 import PodcastsPage from '../views/PodcastsPage.vue';
 import ContactPage from '../views/ContactPage.vue';
+import AdminPage from '../views/AdminPage.vue';
 
 const routes = [
 	{
@@ -24,6 +25,11 @@ const routes = [
 		path: '/podcasts',
 		name: 'PodcastsPage',
 		component: PodcastsPage,
+	},
+	{
+		path: '/admin',
+		name: 'AdminPage',
+		component: AdminPage,
 	},
 ];
 

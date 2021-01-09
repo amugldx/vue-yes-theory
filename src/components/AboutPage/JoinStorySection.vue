@@ -12,11 +12,15 @@
 				you tips, advice, and experience. No bullshit.</p
 			>
 			<div>
-				<form class="flex flex-col lg:flex-row justify-center items-center">
+				<form
+					@submit.prevent="addPerson"
+					class="flex flex-col lg:flex-row justify-center items-center"
+				>
 					<div class="self-center">
 						<input
-							class="mt-6 h-8 lg:h-12 rounded-full lg:text-2xl w-52 md:w-60 lg:w-96 p-4"
+							class="mt-6 h-8 lg:h-12 rounded-full lg:text-2xl w-52 md:w-60 lg:w-96 p-4 focus:bg-gray-200"
 							type="text"
+							v-model.trim="personEmail"
 						/>
 					</div>
 					<AppButton
@@ -32,12 +36,25 @@
 </template>
 
 <script>
+	import { ref } from 'vue';
+	import { useStore } from 'vuex';
 	import AppButton from '../UI/AppButton.vue';
 	export default {
 		components: { AppButton },
 		name: 'JoinStorySection',
 		setup() {
-			return {};
+			const store = useStore();
+			const personEmail = ref('');
+
+			const addPerson = () => {
+				store.dispatch('addPeopleJoined', {
+					email: personEmail.value,
+				});
+				personEmail.value = '';
+				store.dispatch('loadPeopleJoined');
+			};
+
+			return { addPerson, personEmail };
 		},
 	};
 </script>
