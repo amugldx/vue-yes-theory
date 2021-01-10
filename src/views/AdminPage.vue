@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-clrBlack text-clrWhite w-screen h-screen">
+	<div class="bg-clrBlack text-clrWhite w-screen h-screen hidden lg:block">
 		<div class="w-full bg-clrGrey flex justify-center items-center">
 			<button
 				@click="currentTabValue = 'podcast'"

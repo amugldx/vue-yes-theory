@@ -14,6 +14,9 @@
 				<router-link class="hover:text-clrYellow mx-2" to="/contact"
 					>Contact</router-link
 				>
+				<router-link class="hover:text-clrYellow mx-2" to="/admin"
+					>Admin Panel</router-link
+				>
 			</div>
 			<div class="mt-3 md:mt-4 lg:mt-6">
 				<LinksYesTheory />
