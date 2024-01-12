@@ -1,4 +1,6 @@
-# vue-yes-theory
+# Yes Theory
+
+Yes theory is a youtube channel that i love to watch. They have very inspiring story and i get motivated by watching their videos. One day i visited their official website and it was poorly made and i didn't like their ui/ux so i opened up figma and disigned their website from scratch. After that i developed it using vue3 and tailwindcss.
 
 ## Website
 
@@ -16,18 +18,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
